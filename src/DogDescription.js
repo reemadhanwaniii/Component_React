@@ -1,7 +1,7 @@
- function DogDescription(){
+ function DogDescription({description}){
     return (
         <div>
-            Hello I am cute puppy
+            {description}
         </div>
     )
  }
